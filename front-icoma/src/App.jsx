@@ -26,7 +26,7 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        Testano o deploy se funciona... 
+        Testando o deploy se funciona... e vinculos do react
       </p>
     </>
   )
