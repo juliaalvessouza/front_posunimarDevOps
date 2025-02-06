@@ -16,7 +16,7 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
-          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_UNIMAR_START_DEVOPS_7F89F }}
+          # firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_UNIMAR_START_DEVOPS_7F89F }}
           channelId: live
           projectId: unimar-start-devops-7f89f
           entryPoint: front-icoma
